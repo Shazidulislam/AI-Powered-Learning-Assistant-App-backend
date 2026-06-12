@@ -1,0 +1,62 @@
+npm  i bcryptjs cors dotenv express express-validator jsonwebtoken mongoose multer  pdf-parse  @google/genai
+AI-Powered Learning Assistant App-এর জন্য package গুলোর short use case:
+
+| Package             | Use Case                                                           |
+| ------------------- | ------------------------------------------------------------------ |
+| `express`           | Backend API server তৈরি                                            |
+| `cors`              | React frontend ↔ Express backend connection                        |
+| `dotenv`            | API keys, database URI, secrets secure রাখা                        |
+| `mongoose`          | MongoDB database connect ও data model তৈরি                         |
+| `bcryptjs`          | User password hash করা                                             |
+| `jsonwebtoken`      | Login authentication token তৈরি                                    |
+| `express-validator` | Signup/Login/Input validation                                      |
+| `multer`            | PDF, notes, assignments upload করা                                 |
+| `pdf-parse`         | PDF থেকে text extract করা                                          |
+| `@google/genai`     | Gemini AI ব্যবহার করে chat, summary, Q&A, explanation generate করা |
+
+### Example Flow
+
+1. User Signup/Login
+
+   * `bcryptjs`
+   * `jsonwebtoken`
+   * `express-validator`
+
+2. User PDF Upload
+
+   * `multer`
+
+3. PDF Read
+
+   * `pdf-parse`
+
+4. Send PDF Content to Gemini
+
+   * `@google/genai`
+
+5. Save Chat History/User Data
+
+   * `mongoose`
+
+6. Serve APIs
+
+   * `express`
+
+7. Connect Frontend
+
+   * `cors`
+
+8. Store Secrets
+
+   * `dotenv`
+
+এই package set দিয়ে তুমি AI Learning Assistant-এর features বানাতে পারবে যেমন:
+
+* AI Tutor Chat
+* PDF Summarizer
+* Question Answering
+* Notes Explanation
+* Quiz Generation
+* Study Assistant
+* User Authentication
+* Chat History Storage
