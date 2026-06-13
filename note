@@ -60,3 +60,6 @@ AI-Powered Learning Assistant App-এর জন্য package গুলোর sh
 * Study Assistant
 * User Authentication
 * Chat History Storage
+
+
+<!-- error handling with chatgtp error hadler maje amake dew mongoose bad objectId , Mongoose duplicat Key , Mongoose validation error , multer file size error , jwt error  -->

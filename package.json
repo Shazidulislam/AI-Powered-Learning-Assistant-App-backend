@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start":"node server.js",
-    "dev":"nodmon server.js"
+    "dev":"nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "@google/genai": "^2.8.0",
     "bcryptjs": "^3.0.3",
