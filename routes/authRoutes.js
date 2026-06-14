@@ -32,7 +32,6 @@ const registerValidation = [
     .withMessage("Password must be at least 6 characters")
 
 ];
-
 const loginValidation =[
     body("email")
     .isEmail()

@@ -41,7 +41,7 @@ app.use(errorHandler)
 
 //404 handeler 
 app.use((req , res)=>{
-    res.send(404).json({
+    res.status(404).json({
         success:false,
         error:"Route not found",
         statusCode:404
