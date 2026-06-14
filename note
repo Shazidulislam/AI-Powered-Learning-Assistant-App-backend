@@ -63,3 +63,5 @@ AI-Powered Learning Assistant App-এর জন্য package গুলোর sh
 
 
 <!-- error handling with chatgtp error hadler maje amake dew mongoose bad objectId , Mongoose duplicat Key , Mongoose validation error , multer file size error , jwt error  -->
+
+<!-- server.js --> setup mongodb + db.js--->error handel.js -->authRoute.js -->authController.js-->User.js -->
