@@ -51,3 +51,18 @@
 //     console.log(`Server runing in ${process.env.NODE_ENV} NODE ON port ${PORT}`)
 // })
 
+// import dotenv from "dotenv";
+// import mongoose from "mongoose";
+// import dns from "dns";
+
+// dotenv.config();
+// dns.setDefaultResultOrder("ipv4first");
+
+// console.log("URI:", process.env.MONGODB_URI);
+
+// try {
+//   await mongoose.connect(process.env.MONGODB_URI);
+//   console.log("✅ Connected!");
+// } catch (e) {
+//   console.error("❌ Full Error:", e);
+}
